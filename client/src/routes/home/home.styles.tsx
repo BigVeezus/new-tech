@@ -7,7 +7,10 @@ export const LinkStyle = styled(Link)`
   text-decoration: none;
 `;
 export const HomeWRap = styled.div`
+  background-color: #0e0e18;
+  height: 86vh;
   h1 {
+    color: #ffe602;
     font-size: 3rem;
     margin-top: 100px;
     margin-bottom: 50px;
