@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const SecurityCardWrap = styled.div`
   background: #263238;
-  height: 200px;
   width: 50%;
   margin: 20px auto;
   padding: 20px;
@@ -29,5 +28,19 @@ export const SecurityCardWrap = styled.div`
   }
   .top {
     border: 2px solid pink;
+  }
+  .sec-card-bottom {
+    font-size: 1.5rem;
+    width: 70%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .yellow {
+    color: #ffe602;
+  }
+  .right {
+    text-align: right;
   }
 `;

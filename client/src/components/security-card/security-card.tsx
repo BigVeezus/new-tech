@@ -9,11 +9,11 @@ export const SecurityCard = () => {
           <div className="progress" />
         </div>
       </div>
-      <div>
-        <h2>Secure your account</h2>
+      <div className="sec-card-bottom">
+        <h2 className="yellow">Secure your account</h2>
         <p>Hi, add more secret questions to secure your profile</p>
         <hr />
-        <h2>Add Security Question</h2>
+        <h2 className="yellow right">Add Security Question</h2>
       </div>
     </SecurityCardWrap>
   );

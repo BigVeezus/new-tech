@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const DashboardWrap = styled.div`
   padding-top: 10px;
+  padding-bottom: 50px;
   color: white;
   background-color: #0e0e18;
   /* height: 100vh; */
