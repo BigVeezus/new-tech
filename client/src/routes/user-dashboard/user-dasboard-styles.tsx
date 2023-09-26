@@ -36,6 +36,8 @@ export const DashboardWrap = styled.div`
     flex-direction: column;
     gap: 5px;
     align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
   }
   .green {
     color: green;

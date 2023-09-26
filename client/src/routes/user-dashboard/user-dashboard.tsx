@@ -7,6 +7,8 @@ import createAcc from "../../assets/createBank.svg";
 import profile from "../../assets/profile.svg";
 import notifs from "../../assets/notifs.svg";
 import { SecurityCard } from "../../components/security-card/security-card";
+import { Link } from "react-router-dom";
+// import { Slider } from "../../components/slider/slider";
 
 export const UserDashboard = () => {
   return (
@@ -28,10 +30,12 @@ export const UserDashboard = () => {
         <p>Edit Favourites</p>
       </div>
       <div className="menu">
-        <div className="menu-item">
-          <img src={transacts} />
-          <p>Bank Transactions</p>
-        </div>
+        <Link to={"/transactions"}>
+          <div className="menu-item">
+            <img src={transacts} />
+            <p>Bank Transactions</p>
+          </div>
+        </Link>
         <div className="menu-item">
           <img src={savings} />
           <p>Save & Keep</p>
@@ -50,6 +54,7 @@ export const UserDashboard = () => {
         <p className="green">90% Done</p>
       </div>
       <SecurityCard />
+      {/* <Slider /> */}
     </DashboardWrap>
   );
 };
