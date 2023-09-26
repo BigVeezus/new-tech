@@ -16,7 +16,7 @@ export const Transactions = () => {
         <Link to={"../"}>
           <img src={backArrow} />
         </Link>
-        <h2>Bank Transactions</h2>
+        <h2 className="center">Bank Transactions</h2>
       </div>
       <TransCardsContainer>
         <TransactionCard

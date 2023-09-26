@@ -13,6 +13,7 @@ export const TransactionCardWrap = styled.div`
     display: flex;
     flex-direction: column;
     text-align: left;
+    width: 70%;
   }
 `;
 export const TransCardsContainer = styled.div`

@@ -8,7 +8,15 @@ export const TransactionsWrap = styled.div`
   padding: 50px;
   .transac-top {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    width: 50%;
+    margin: 10px auto;
+    justify-content: space-between;
+    h2 {
+      align-self: center;
+      flex: 1;
+    }
+    .center {
+      text-align: center;
+    }
   }
 `;
